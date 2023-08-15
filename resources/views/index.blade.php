@@ -18,25 +18,28 @@
 <body>
   <!-- ナビゲーションメニュー -->
   <nav class="navbar navbar-expand-lg navbar-light text-dark bg-dark" id="home">
-    <a class="navbar-brand text-white" href="#">Portfolio</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link text-white" href="#home">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#skill">Skill</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#contact">Contact</a>
-        </li>
-      </ul>
+    <div class="container">
+      <a class="navbar-brand text-white" href="#">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="#home">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#skill">Skill</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
+
   <!-- カード -->
   <div class="container my-5" id="skill">
     <h2 class="py-4 text-dark">Skill</h2>
@@ -67,7 +70,7 @@
       </div>
     </div>
   </div>
-  
+
   <div class="container">
     <div class="mb-3">
       <label for="formGroupExampleInput" class="form-label">Example label</label>
